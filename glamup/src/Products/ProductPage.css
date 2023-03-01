@@ -1,0 +1,104 @@
+.pageNumber{
+    background-color: #fc2779;
+    border-radius: 50%;
+    color: white;
+}
+.products,.a-sidebar{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.button_pagination{
+     border-radius: 50%;
+     background-color: white;
+   
+}
+.likeAndCartButton{
+    display: none;
+}
+.products:hover .likeAndCartButton{
+    display:block;
+    
+}
+
+.alldropdown summary,
+.alldropdown li {
+  list-style: none;
+  text-align: left;
+  font-style: normal;
+ background-color: white;
+  padding: 14px;
+  cursor: pointer;
+}
+.alldropdown ul {
+  font-size:xx-large;
+}
+.alldropdown li {
+    padding: 5px 14px;
+
+  font-size: large;
+  color: rgba(82, 79, 79, 0.849);
+}
+
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=radio]#pink {
+    accent-color:#fc2779;
+  
+   
+}
+input[type=checkbox]#pink {
+    accent-color:#fc2779;
+   
+}
+.sidebar-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagehover{
+    width : 50px;
+    height:50px;
+    border: 2px solid gray;
+}
+.imagehover:hover{
+    border: 2px solid #fc2779;
+}
+
+.hoverimage:hover .buttonAndAll{
+    display: none;
+   
+}
+.addToBag{
+    padding: 14px 0px;
+    background-color: #fc2779;
+    color: white;
+    font-size: larger;
+}
+.enterPincode{
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 8px;
+    width: 250px
+}
+.check{
+    color: #fc2779;
+    margin-left:-50px;
+}
+.showImage{
+    margin-top: 30px;
+}
+.readMore{
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    color: #fc2779;
+    background-color: aliceblue;
+    font-size: x-large;
+}
+
+.cartPrice div{
+    padding: 10px 2px;
+}
